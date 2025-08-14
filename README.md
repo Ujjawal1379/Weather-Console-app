@@ -40,12 +40,12 @@ The application is built with Java 11+ and uses the modern `HttpClient` API for 
    with your actual API key.
 4. **Compile the code** (org.json JAR is already in repo):
    ```bash
-   javac -cp .;json-20210307.jar Weather.java
+   javac -cp ".;lib/json-20250517.jar" Weather.java
    ```
    *(Use `:` instead of `;` on Linux/Mac.)*
 5. **Run the program**:
    ```bash
-   java -cp .;json-20210307.jar Weather
+   java -cp ".;lib/json-20250517.jar" Weather
    ```
 6. **Enter a city name** when prompted and see the weather details.
 
